@@ -10,7 +10,7 @@ directory "#{dir}/shared" do
 end
 
 deploy dir do
-  repo 'https://github.com/tigris/chef-test'
+  repo 'https://github.com/tigris/chef-deploy-test'
   symlinks Hash.new
   symlink_before_migrate Hash.new
   before_migrate do
